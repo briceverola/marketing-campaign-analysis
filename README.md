@@ -37,8 +37,9 @@ python run_sql.py
 [View the Looker Studio Dashboard](https://datastudio.google.com/reporting/9e38a23e-1fa4-4cad-b643-7f7e3df6e086)
 
 ## Key Findings
-- **TikTok** delivers the highest average ROAS (10.85) at the lowest CPC ($1.33)
-- **LinkedIn** is the most expensive channel with the lowest ROAS (3.05)
-- **Lead Generation** and **Conversions** objectives generate 3x more profit than Brand Awareness
-- **Low budget tier** achieves similar ROAS to High tier despite 70% less spend
-- Revenue peaked in **November 2024** suggesting seasonal patterns worth investigating
+- **TikTok** delivers the highest average ROAS (10.85) at the lowest CPC ($1.33), making it the most cost-efficient platform in this dataset
+- **LinkedIn** is the most expensive channel (avg CPC $7.01) with the lowest ROAS (3.05), making it the least cost-efficient platform
+- **Lead Generation** and **Conversions** drive over 75% of total profit. **Brand Awareness**, despite being a common objective, generates 3x less profit than Lead Generation. **Engagement** and **App Installs** contribute less than 6% each
+- **Low budget tier** achieves similar ROAS (7.16) to High tier (7.8) despite 70% less spend, suggesting that increasing budget does not proportionally improve efficiency
+- **Desktop** delivers nearly 3x higher ROAS (12.48) than Mobile (4.57), despite Mobile accounting for over 54% of all campaigns — suggesting a significant budget reallocation opportunity toward Desktop
+- Revenue peaked in **December 2024** suggesting seasonal patterns worth investigating
