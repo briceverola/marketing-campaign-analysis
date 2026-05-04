@@ -39,7 +39,7 @@ python run_sql.py
 ## Dashboard Preview
 
 ### Page 1 — Campaign & Platform Performance
-![Page 1](screenshots/page2.png)
+![Page 1](screenshots/page1.png)
 
 ### Page 2 — Trend & Device Analysis
 ![Page 2](screenshots/page2.png)
