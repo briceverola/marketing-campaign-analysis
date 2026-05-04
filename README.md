@@ -36,6 +36,14 @@ python run_sql.py
 ## Dashboard
 [View the Looker Studio Dashboard](https://datastudio.google.com/reporting/9e38a23e-1fa4-4cad-b643-7f7e3df6e086)
 
+## Dashboard Preview
+
+### Page 1 — Campaign & Platform Performance
+![Page 1](screenshots/page1.png)
+
+### Page 2 — Trend & Device Analysis
+![Page 2](screenshots/page2.png)
+
 ## Key Findings
 - **TikTok** delivers the highest average ROAS (10.85) at the lowest CPC ($1.33), making it the most cost-efficient platform in this dataset
 - **LinkedIn** is the most expensive channel (avg CPC $7.01) with the lowest ROAS (3.05), making it the least cost-efficient platform
