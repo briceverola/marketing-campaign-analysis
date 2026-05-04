@@ -1,0 +1,4 @@
+*.csv
+exports/
+*.duckdb
+__pycache__/
