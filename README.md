@@ -22,16 +22,21 @@ End-to-end analysis of 10,000 digital advertising campaigns across 6 platforms (
 └── run_sql.py          # Pipeline runner
 ```
 
+## SQL Pipeline Details
+
+**`1_staging.sql`** — Loads the raw CSV using DuckDB, filters out invalid rows (zero impressions or spend), standardizes column names and casts date fields. Creates the `stg_campaigns` table used by all downstream models.
+
+**`2_kpi_models.sql`** — Builds 5 aggregated tables from the staging layer:
+- `kpi_by_platform` — revenue, spend, ROAS, CTR and conversion rate per platform
+- `kpi_by_objective` — profitability and conversion metrics per campaign objective
+- `kpi_by_device` — performance breakdown by device type
+- `kpi_monthly_trend` — month-over-month revenue, profit and ROAS evolution
+- `kpi_by_budget_tier` — spend efficiency analysis across budget tiers
+
+**`3_export.sql`** — Exports all 5 KPI tables to CSV for ingestion into Looker Studio via Google Sheets.
+
 ## Dataset
 Source: [Digital Advertising Campaign Performance Dataset](https://www.kaggle.com/datasets/juniornsa/digital-advertising-campaign-performance-dataset) — 10,000 rows, 41 columns, Jan 2024 to Jan 2026.
-
-Download the CSV and place it in the project folder before running.
-
-## How to Run
-```bash
-pip install duckdb==0.9.2 pandas
-python run_sql.py
-```
 
 ## Dashboard
 [View the Looker Studio Dashboard](https://datastudio.google.com/reporting/9e38a23e-1fa4-4cad-b643-7f7e3df6e086)
