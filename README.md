@@ -49,5 +49,5 @@ python run_sql.py
 - **LinkedIn** is the most expensive channel (avg CPC $7.01) with the lowest ROAS (3.05), making it the least cost-efficient platform
 - **Lead Generation** and **Conversions** drive over 75% of total profit. **Brand Awareness**, despite being a common objective, generates 3x less profit than Lead Generation. **Engagement** and **App Installs** contribute less than 6% each
 - **Low budget tier** achieves similar ROAS (7.16) to High tier (7.8) despite 70% less spend, suggesting that increasing budget does not proportionally improve efficiency
-- **Desktop** delivers nearly 3x higher ROAS (12.48) than Mobile (4.57), despite Mobile accounting for over 54% of all campaigns — suggesting a significant budget reallocation opportunity toward Desktop
+- **Desktop** delivers nearly 3x higher ROAS (12.48) than Mobile (4.57), despite Mobile accounting for over 54% of all campaigns, suggesting a significant budget reallocation opportunity toward Desktop
 - Revenue peaked in **December 2024** suggesting seasonal patterns worth investigating
